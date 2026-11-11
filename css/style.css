@@ -5,3 +5,31 @@ body
   color: #111111;
   font-family: sans-serif;
 }
+
+/* Navigation bar formatting */
+nav ul
+{
+  background-color: #C5C5C5;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li
+{
+  float: left;
+}
+
+nav ul li a
+{
+  display: block
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover
+{
+  background-color: #440000; /* dark red when hovering*/
+}
