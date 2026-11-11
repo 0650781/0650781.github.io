@@ -1,4 +1,13 @@
 /* Stylesheet for my final project */
+
+/* CSS stylign reset */
+*
+{
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
 body
 {
   background-color: #3E5231;
@@ -28,6 +37,47 @@ footer
 {
   
   
+  /* Navigation bar formatting */
+  nav ul
+  {
+    width: 80%;
+    background-color: #C5C5C5;
+    list-style-type: none;
+    margin: auto;
+    padding-left: 0;
+    overflow: hidden;
+    content-align: center;
+    text-align: center;
+    
+  }
+  
+  nav ul li
+  {
+    float: left;
+  }
+  
+  nav ul li a
+  {
+    font-size: 120%;
+    color: black;
+    display: block;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover
+  {
+    color: white;
+    background-color: #440000; /* dark red when hovering*/
+  }
+}
+
+/* Cellphone styling */
+@media only screen and (max-width: 768px)
+{
   /* Navigation bar formatting */
   nav ul
   {
