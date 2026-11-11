@@ -6,6 +6,11 @@ body
   font-family: sans-serif;
 }
 
+header h1
+{
+  width: 80%;
+}
+
 main
 {
   text-align: center;
