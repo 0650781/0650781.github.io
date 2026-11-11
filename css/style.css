@@ -19,6 +19,8 @@ body
     padding: 0;
     overflow: hidden;
     content-align: center;
+    text-align: center;
+    width: 80%;
   }
   
   nav ul li
@@ -31,7 +33,7 @@ body
     font-size: 120%;
     color: black;
     display: block;
-    padding: 10px;
+    padding: 2px;
     margin: 10px;
     text-align: center;
     font-weight: bold;
