@@ -8,12 +8,13 @@ body
 
 header h1
 {
-  margin-left: 1em;
+  margin-left: 4em;
 }
 
 main
 {
   width: 60%;
+  margin: auto;
   text-align: center;
 }
 
