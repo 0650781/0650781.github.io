@@ -24,14 +24,15 @@ footer
   /* Navigation bar formatting */
   nav ul
   {
+    width: 80%;
     background-color: #C5C5C5;
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    padding-left: 0;
     overflow: hidden;
     content-align: center;
     text-align: center;
-    width: 80%;
+    
   }
   
   nav ul li
