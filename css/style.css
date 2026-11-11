@@ -1,13 +1,14 @@
 /* Stylesheet for my final project */
+body
+{
+  color: #111111;
+  font-family: sans-serif;
+}
 
 /* Desktop */
 @media only screen and (min-width: 768px)
 {
-  body
-  {
-    color: #111111;
-    font-family: sans-serif;
-  }
+  
   
   /* Navigation bar formatting */
   nav ul
@@ -17,6 +18,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    content-align: center;
   }
   
   nav ul li
