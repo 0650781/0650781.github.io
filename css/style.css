@@ -1,8 +1,19 @@
 /* Stylesheet for my final project */
 body
 {
-  color: #111111;
+  background-color: #3E5231;
+  color: #EEEEEE;
   font-family: sans-serif;
+}
+
+main
+{
+  text-align: center;
+}
+
+footer
+{
+  text-align: center;
 }
 
 /* Desktop */
