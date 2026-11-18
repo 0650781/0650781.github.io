@@ -31,6 +31,12 @@ footer
   text-align: center;
 }
 
+label
+{
+    margin-bottom: 10px;
+    display: block;
+}
+
 /* Desktop */
 @media only screen and (min-width: 768px)
 {
