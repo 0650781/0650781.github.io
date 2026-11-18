@@ -37,6 +37,19 @@ label
     display: block;
 }
 
+table
+{
+    border: 3px inset #333;
+}
+tr
+{
+  background-color: #eeeeee;
+}
+
+tr:nth-child(even) {
+  background-color: #cccccc;
+}
+
 /* Desktop */
 @media only screen and (min-width: 768px)
 {
