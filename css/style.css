@@ -43,11 +43,11 @@ table
 }
 tr
 {
-  background-color: #eeeeee;
+  background-color: #000000;
 }
 
 tr:nth-child(even) {
-  background-color: #cccccc;
+  background-color: #555555;
 }
 
 /* Desktop */
