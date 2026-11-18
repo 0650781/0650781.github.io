@@ -19,9 +19,48 @@
     	</nav>
 
     <main>
-     	<h2>Welcome to my final project site!</h2>
-     	<p>This is a Website made for my final project in my CTS1831C Web Authoring course in college. It follows accessibility guidelines and is deisgned to be easy to use.</p>
-		<img width = 400 src = "https://upload.wikimedia.org/wikipedia/commons/d/d1/WWW-LetShare.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original" alt = "Logo of the World Wide Web">
+     	<h2>Contact me</h2>
+		
+     	<form action="#" method="post">
+		<label for="name">Full Name *</label>
+		<input
+		type="text"
+		id="name"
+		name="name"
+		placeholder="Enter your full name"
+		minlength="2"
+		maxlength="60"
+		pattern="[A-Za-zÀ-ÿ '-]+"
+		required>
+		
+		<label for="email">Email Address</label>
+		<input
+		type="email"
+		id="email"
+		name="email"
+		required>
+		
+		<label for="phone">Phone Number</label>
+		<input
+		type="tel"
+		id="phone"
+		name="phone"
+		pattern="[0-9() -]{7,10}"
+		required>
+		
+		<label for="contact-method">Preferred Contact Method</label>
+		
+		<select id="contact-method" name="contact-method" required>
+		<option value="">Contact Method</option>
+		<option value="email">E-mail</option>
+		<option value="phone">phone</option>
+		</select>
+		
+		<label for="message">Message text:</label>
+		<textarea id="message" name="message" placeholder="" minlength="40" maxlength="1000" required></textarea>
+		
+		<button type="submit">Submit Message</button>
+  	    </form>
 	</main>
 	<footer>
 		<hr/>
