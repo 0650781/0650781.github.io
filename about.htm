@@ -20,12 +20,17 @@
 
     <main>
      	<h2>About me</h2>
-     	<p>I am a college student, currently in my second year. This is a Web site I made as my final project for my Web authoring class in late 2026. It makes use of HTML5, CSS, as well as basic JavaScript.</p>
+		<article>
+			<p>I am a college student, currently in my second year. This is a Web site I made as my final project for my Web authoring class in late 2026. It makes use of HTML5, CSS, as well as basic JavaScript.</p>
+	
+			<section id = "video">
+				<h2>Below I included a video as an example of how to embed a video file in HTML5</h2>
+					<video controls width = 500 src ="https://upload.wikimedia.org/wikipedia/commons/a/a7/How_to_make_video.webm">
 
-		<section id = "video">
-			<h2>Below I included a video as an example of how to embed a video file in HTML5</h2>
-				<video controls width = 500 src ="https://upload.wikimedia.org/wikipedia/commons/a/a7/How_to_make_video.webm">Your browser does not support this element.</video>
-		</section>
+						<track label="English" kind="captions" srclang="en" src="https://commons.wikimedia.org/w/api.php?action=timedtext&title=File%3AHow_to_make_video.webm&lang=en&trackformat=vtt" default/>
+					</video>
+			</section>
+		</article>
 	</main>
 	<footer>
 		<hr/>
