@@ -50,6 +50,18 @@ tr:nth-child(even) {
   background-color: #555555;
 }
 
+#video h2
+{
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+#video h3
+{
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
 /* Desktop */
 @media only screen and (min-width: 768px)
 {
