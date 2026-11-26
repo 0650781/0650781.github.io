@@ -83,6 +83,12 @@ tr:nth-child(even)
     margin-bottom: 5px;
 }
 
+hr
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Desktop */
 @media only screen and (min-width: 768px)
 {
