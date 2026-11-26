@@ -97,6 +97,8 @@ hr
   /* Navigation bar formatting */
   nav ul
   {
+    padding-top: 6px;
+    padding-bottom: 15px;
     border-style: outset;
     border-radius: 8px;
     filter: drop-shadow(8px 8px 0px #000000);
@@ -141,6 +143,8 @@ hr
   /* Navigation bar formatting */
   nav ul
   {
+    padding-top: 2px;
+    padding-bottom: 10px;
     border-style: outset;
     border-radius: 8px;
     filter: drop-shadow(8px 8px 0px #000000);
