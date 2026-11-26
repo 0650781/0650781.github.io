@@ -55,7 +55,19 @@ tr
   background-color: #000000;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even)
+{
+  background-color: #555555;
+}
+
+#employment tr
+{
+  color: #ffffff;
+  background-color: #220000;
+}
+
+#employment tr:nth-child(even)
+{
   background-color: #555555;
 }
 
