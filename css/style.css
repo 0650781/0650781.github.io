@@ -9,7 +9,8 @@
 
 body
 {
-  background-color: #3E5231;
+  background-color: #3E5231; /* fallback background color in case gradient doesnt work */
+  background: linear-gradient(180deg,rgba(133, 181, 107, 1) 0%, rgba(62, 82, 49, 1) 100%);
   color: #EEEEEE;
   font-family: sans-serif;
 }
@@ -39,6 +40,7 @@ label
 
 table
 {
+    margin: 0 auto;
     border: 3px inset #333;
 }
 tr
